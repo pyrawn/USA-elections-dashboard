@@ -1,0 +1,30 @@
+{
+  "_comment": "Candidate-to-party dictionary for the 2024 FEC presidential general election workbook. The FEC column headers only give surnames (plus full party names for Trump and Harris on the electoral-vote columns), so this file documents who each surname column refers to and their party, compiled from The Green Papers 2024 presidential candidate list (https://www.thegreenpapers.com/P24/candidates.phtml). 'party_group' collapses parties into Republican / Democratic / Other for map coloring; 'party_full' keeps the real party name for the candidate info panel.",
+  "source": "The Green Papers, '2024 Presidential Hopefuls' (https://www.thegreenpapers.com/P24/candidates.phtml?sort=a), accessed 2026-11-08",
+  "candidates": [
+    { "column": "TRUMP", "full_name": "Donald John Trump", "running_mate": "JD Vance", "party_full": "Republican", "party_group": "Republican" },
+    { "column": "HARRIS", "full_name": "Kamala Devi Harris", "running_mate": "Tim Walz", "party_full": "Democratic", "party_group": "Democratic" },
+    { "column": "OLIVER", "full_name": "Chase Russell Oliver", "running_mate": "Mike ter Maat", "party_full": "Libertarian", "party_group": "Other" },
+    { "column": "STEIN", "full_name": "Jill Ellen Stein", "running_mate": "Rudolph Ware / Butch Ware", "party_full": "Green", "party_group": "Other" },
+    { "column": "KENNEDY", "full_name": "Robert Francis Kennedy, Jr.", "running_mate": "Nicole Shanahan", "party_full": "Independent (suspended campaign, endorsed Trump)", "party_group": "Other" },
+    { "column": "WEST", "full_name": "Cornel Ronald West", "running_mate": "Melina Abdullah", "party_full": "Independent", "party_group": "Other" },
+    { "column": "DE LA CRUZ", "full_name": "Claudia De la Cruz", "running_mate": "Karina Garcia", "party_full": "Party for Socialism and Liberation", "party_group": "Other" },
+    { "column": "DUNCAN", "full_name": "Richard Duncan", "running_mate": "", "party_full": "Independent", "party_group": "Other" },
+    { "column": "EBKE", "full_name": "Laura Ebke", "running_mate": "", "party_full": "Libertarian Party of New Mexico", "party_group": "Other" },
+    { "column": "EVERYLOVE", "full_name": "Lucifer \"Justin Case\" Everylove", "running_mate": "", "party_full": "Unaffiliated", "party_group": "Other" },
+    { "column": "FRUIT", "full_name": "Rachele Fruit", "running_mate": "", "party_full": "Socialist Workers Party", "party_group": "Other" },
+    { "column": "GARRITY", "full_name": "Christopher Michael Garrity", "running_mate": "", "party_full": "Independent", "party_group": "Other" },
+    { "column": "HUBER", "full_name": "Blake Huber", "running_mate": "", "party_full": "Approval Voting Party", "party_group": "Other" },
+    { "column": "KISHORE", "full_name": "Joseph Kishore Tanniru", "running_mate": "", "party_full": "Socialist Equality Party", "party_group": "Other" },
+    { "column": "PRESTON", "full_name": "Mattie Preston", "running_mate": "", "party_full": "Godliness, Truth, Justice", "party_group": "Other" },
+    { "column": "SKOUSEN", "full_name": "Joel M. Skousen", "running_mate": "", "party_full": "Constitution Party", "party_group": "Other" },
+    { "column": "SONSKI", "full_name": "Peter A. Sonski", "running_mate": "", "party_full": "American Solidarity Party", "party_group": "Other" },
+    { "column": "STODDEN", "full_name": "William P. Stodden", "running_mate": "", "party_full": "Socialist Party USA", "party_group": "Other" },
+    { "column": "SUPREME", "full_name": "Vermin Love Supreme", "running_mate": "", "party_full": "Other", "party_group": "Other" },
+    { "column": "TERRY", "full_name": "Randall Allan Terry", "running_mate": "", "party_full": "Unaffiliated", "party_group": "Other" },
+    { "column": "WELLS", "full_name": "Robert Carr \"Robby\" Wells Jr.", "running_mate": "", "party_full": "Independent", "party_group": "Other" },
+    { "column": "WOOD", "full_name": "Michael Wood", "running_mate": "", "party_full": "Prohibition Party", "party_group": "Other" },
+    { "column": "AYYADURAI", "full_name": "Shiva Ayyadurai", "running_mate": "", "party_full": "Independent", "party_group": "Other" },
+    { "column": "BOWMAN", "full_name": "Jay J. Bowman", "running_mate": "", "party_full": "Independent", "party_group": "Other" }
+  ]
+}

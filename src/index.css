@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #F7F4EE;
+  color: #1C1B1A;
+}
+
+.state-shape {
+  stroke: #F7F4EE;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: filter 120ms ease, stroke-width 120ms ease;
+}
+
+.state-shape:hover {
+  filter: brightness(1.08);
+}
+
+.state-shape.is-selected {
+  stroke: #1C1B1A;
+  stroke-width: 2;
+}
+
+.state-shape.is-regret {
+  stroke: #E8B23A;
+  stroke-width: 2.25;
+}
