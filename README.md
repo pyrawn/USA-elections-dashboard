@@ -7,6 +7,12 @@ in JavaScript (React + D3 + TopoJSON) instead of Python or R.
 **Live question:** where the country voted Republican in 2024, did it vote the
 same way again in the 2026 midterms, or did it change its mind?
 
+| 2024 results, state detail | 2026 midterm check-in |
+|---|---|
+| ![2024 presidential results with Texas selected, showing its full candidate breakdown](docs/screenshots/02-state-panel-texas.jpg) | ![2026 midterm check-in map with Trump-2024 states that elected Democrats outlined in gold, Texas panel showing its flipped Governor and Senate races](docs/screenshots/03-midterm-checkin-texas.jpg) |
+
+![Dashboard overview: headline, insights strip and the 2024 results map](docs/screenshots/01-overview.jpg)
+
 ## What it does
 
 - A US choropleth map (D3 + `us-atlas` TopoJSON, Albers USA projection) that
